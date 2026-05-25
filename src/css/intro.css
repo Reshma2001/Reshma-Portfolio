@@ -1,0 +1,47 @@
+/*intro*/
+.introContainer {
+  /* padding: 50px 20px; */
+}
+.userInfo {
+  margin-bottom: 30px;
+}
+.greetings {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+.userName {
+  font-size: 4em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.role {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: rgb(126, 126, 126);
+  margin-bottom: 10px;
+}
+.summaryText {
+  font-size: 1.2em;
+  color: rgb(126, 126, 126);
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.userLinks button {
+  background: var(--primary-color);
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  border: unset;
+  height: 50px;
+  padding: 0 25px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.userLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,61 @@
+/*Projects*/
+.projectListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.projectCard {
+  width: 44%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.projectType {
+  font-family: monospace;
+  background: var(--primary-color);
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.projectName {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.projectDesc {
+  color: rgb(126, 126, 126);
+  margin-bottom: 20px;
+  line-height: 22px;
+  text-align: justify;
+}
+.knowledgeGain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.knowledge {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+/*tab*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .projectListContainer {
+    justify-content: center;
+  }
+  .projectCard {
+    width: 80%;
+  }
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+  .projectCard {
+    width: 100%;
+  }
+}

@@ -1,0 +1,49 @@
+/*Experience*/
+.experiences {
+  display: flex;
+}
+.joinDate {
+  text-align: end;
+  padding-right: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.roleDetails {
+  list-style-type: circle;
+  margin: unset;
+}
+.roleInfo::marker {
+  font-size: 1.7em;
+}
+.expRole {
+  font-size: 1.7em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.company {
+  margin-bottom: 15px;
+}
+.roleDetails ul {
+  list-style-type: disc;
+}
+.roleDetails ul li {
+  margin-bottom: 20px;
+}
+.roleDetails ul li::marker {
+  color: var(--primary-color);
+}
+
+/*tab*/
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+  .experiences {
+    flex-direction: column;
+  }
+  .joinDate {
+    text-align: unset;
+    border-right: unset;
+    margin-bottom: 20px;
+  }
+}
