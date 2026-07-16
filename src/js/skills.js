@@ -10,7 +10,7 @@ export default function Skills() {
         variants={STAGGER}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2, margin: "-200px" }}
+        viewport={{ once: true, margin: "-200px" }}
       >
         <motion.div class="titleContent" variants={FADE_UP}>
           <div class="numberFormat">03.</div>
