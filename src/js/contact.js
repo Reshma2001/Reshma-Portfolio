@@ -13,7 +13,7 @@ export default function Contact() {
         variants={STAGGER}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2, margin: "-200px" }}
+        viewport={{ once: true, margin: "-200px" }}
       >
         <motion.div class="titleContent contactNumFormat" variants={FADE_UP}>
           <div class="numberFormat">05. What's Next?</div>
