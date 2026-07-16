@@ -1,6 +1,7 @@
 import "../css/intro.css";
 import linkedInImg from "../assets/linkedin.svg";
 import githubImg from "../assets/github.svg";
+import resume from "../assets/Reshma-M-Resume.pdf";
 import { motion } from "framer-motion";
 import { FADE_UP, STAGGER } from "../component/revealanimation.js";
 
@@ -33,8 +34,8 @@ export default function Intro() {
           </motion.div>
           <motion.div class="userLinks" variants={FADE_UP}>
             <a
-              href="../assets/Reshma-M-Resume.docx"
-              download="Reshma-M-Resume.docx"
+              href={resume}
+              download="Reshma-M-Resume.pdf"
               class="downloadBtnContainer"
             >
               <button id="btnForDownload">Download Resume</button>
