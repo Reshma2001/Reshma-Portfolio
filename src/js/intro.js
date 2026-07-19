@@ -24,7 +24,7 @@ export default function Intro() {
               Reshma M.
             </motion.div>
             <motion.div class="role" variants={FADE_UP}>
-              Front-End & Full-Stack Developer.
+              Front-End | Software Developer | Full-Stack Developer.
             </motion.div>
           </div>
           <motion.div class="summaryText" variants={FADE_UP}>
