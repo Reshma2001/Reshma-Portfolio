@@ -1,7 +1,7 @@
 import "../css/intro.css";
 import linkedInImg from "../assets/linkedin.svg";
 import githubImg from "../assets/github.svg";
-import resume from "../assets/Reshma-M-Resume.pdf";
+import resume from "../assets/Reshma_M_Software_Developer.pdf";
 import { motion } from "framer-motion";
 import { FADE_UP, STAGGER } from "../component/revealanimation.js";
 
@@ -24,7 +24,7 @@ export default function Intro() {
               Reshma M.
             </motion.div>
             <motion.div class="role" variants={FADE_UP}>
-              Front-End | Software Developer | Full-Stack Developer.
+              FrontEnd Developer | Software Development Engineer I.
             </motion.div>
           </div>
           <motion.div class="summaryText" variants={FADE_UP}>
@@ -35,7 +35,7 @@ export default function Intro() {
           <motion.div class="userLinks" variants={FADE_UP}>
             <a
               href={resume}
-              download="Reshma-M-Resume.pdf"
+              download="Reshma_M_Software_Developer.pdf"
               class="downloadBtnContainer"
             >
               <button id="btnForDownload">Download Resume</button>
