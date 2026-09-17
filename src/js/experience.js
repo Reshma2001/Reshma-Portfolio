@@ -25,7 +25,7 @@ export default function Experience() {
             <motion.div class="expInfo" variants={FADE_UP}>
               <ul class="roleDetails">
                 <li class="roleInfo">
-                  <div class="expRole">Software Developer I</div>
+                  <div class="expRole">Software Development Engineer I</div>
                   <div class="company">Bytes Evolution Systems</div>
                 </li>
                 <ul>
