@@ -21,16 +21,17 @@ export default function About() {
           <div class="aboutContent">
             <motion.div class="summaryContainer" variants={FADE_UP}>
               <p class="summaryText">
-                Front-End & Full-Stack Developer with 2+ years of experience
+                Software Development Engineer I with 3+ years of experience
                 developing responsive web and mobile applications using HTML,
                 CSS, JavaScript, Ionic, Xamarin and .NET technologies.
               </p>
               <p class="summaryText">
-                I am highly skilled in debugging, performance optimization and
-                backend integration. My focus is on crafting clean, accessible,
-                and performant user interfaces while ensuring robust connections
-                to the backend. Currently, I am deeply expanding my expertise in
-                React and modern front-end development patterns.
+                I have strong experience in application debugging, performance
+                optimization, and backend integration. My focus is on crafting
+                clean, accessible, and performant user interfaces while ensuring
+                robust connections to the backend. Currently, I am deeply
+                expanding my expertise in React and modern front-end development
+                patterns.
               </p>
             </motion.div>
             <motion.div class="eduInfoContainer" variants={FADE_UP}>
