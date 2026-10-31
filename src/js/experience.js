@@ -20,7 +20,7 @@ export default function Experience() {
         <div class="expContent">
           <div class="experiences">
             <motion.div class="joinDate" variants={FADE_UP}>
-              Jun 2023 – Present
+              Jun 2023 – Oct 2026
             </motion.div>
             <motion.div class="expInfo" variants={FADE_UP}>
               <ul class="roleDetails">
